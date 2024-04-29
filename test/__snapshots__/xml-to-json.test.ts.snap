@@ -1,0 +1,437 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`xml to json > convert 1`] = `
+{
+  "env:Envelope": {
+    "$": {
+      "xmlns:env": "http://www.w3.org/2003/05/soap-envelope",
+    },
+    "env:Body": [
+      {
+        "n0:ZCesdapWsUepIntResponse": [
+          {
+            "$": {
+              "xmlns:n0": "urn:sap-com:document:sap:soap:functions:mc-style",
+            },
+            "Response": [
+              {
+                "Hlavicka": [
+                  {
+                    "ChybaKod": [
+                      "012",
+                    ],
+                    "ChybaText": [
+                      "Priestupky z USEP sa nepodarilo načítať: Zadané údaje o osobe nie sú z test. vzorky, načítanie údajov nie je možné",
+                    ],
+                    "ChybaTyp": [
+                      "W",
+                    ],
+                    "PrekrocenyLimit": [
+                      "",
+                    ],
+                  },
+                ],
+                "Priestupky": [
+                  {
+                    "item": [
+                      {
+                        "Delikt": [
+                          {
+                            "Agenda": [
+                              "-",
+                            ],
+                            "AgendaT": [
+                              "Všeobecný priestupok (v gescii MVSR)",
+                            ],
+                            "AgendovoSpecificke": [
+                              "",
+                            ],
+                            "CasDo": [
+                              "00:00:00",
+                            ],
+                            "CasOd": [
+                              "05:58:00",
+                            ],
+                            "DatumCasNejasny": [
+                              "",
+                            ],
+                            "DatumDo": [
+                              "0000-00-00",
+                            ],
+                            "DatumOd": [
+                              "2013-06-10",
+                            ],
+                            "IdPriestupku": [
+                              "00000000825148",
+                            ],
+                            "Konanie": [
+                              {
+                                "DatumUkoncenia": [
+                                  "2013-09-07",
+                                ],
+                                "DatumZacatiaKonania": [
+                                  "0000-00-00",
+                                ],
+                                "Mena": [
+                                  "",
+                                ],
+                                "NadriadenyMeno": [
+                                  "",
+                                ],
+                                "NadriadenyOC": [
+                                  "00000000",
+                                ],
+                                "PokutoveBloky": [
+                                  "",
+                                ],
+                                "ReferentMeno": [
+                                  "ws_malacky_cora",
+                                ],
+                                "ReferentOC": [
+                                  "00000000",
+                                ],
+                                "SankciaKod": [
+                                  "000",
+                                ],
+                                "SankciaText": [
+                                  "",
+                                ],
+                                "SpisoveCislo": [
+                                  "",
+                                ],
+                                "SpravnyOrganAdresa": [
+                                  "",
+                                ],
+                                "SpravnyOrganId": [
+                                  "00000000",
+                                ],
+                                "SpravnyOrganNazov": [
+                                  "Mestská polícia Malacky",
+                                ],
+                                "TrvanieSankcie": [
+                                  "0",
+                                ],
+                                "VybavenieKod": [
+                                  "",
+                                ],
+                                "VybavenieText": [
+                                  "",
+                                ],
+                                "VybavujeMeno": [
+                                  "",
+                                ],
+                                "VybavujeOC": [
+                                  "00000000",
+                                ],
+                                "VyskaPokuty": [
+                                  "0.0",
+                                ],
+                              },
+                            ],
+                            "Pohladavky": [
+                              "",
+                            ],
+                            "PolicajnaAkcia": [
+                              "",
+                            ],
+                            "PolicajnaAkciaT": [
+                              "",
+                            ],
+                            "PopisPriestupku": [
+                              "V13 - Šikmé čiary",
+                            ],
+                            "Porusenia": [
+                              {
+                                "item": [
+                                  {
+                                    "Bod": [
+                                      "",
+                                    ],
+                                    "Odstavec": [
+                                      "",
+                                    ],
+                                    "Paragraf": [
+                                      "",
+                                    ],
+                                    "Pismeno": [
+                                      "",
+                                    ],
+                                    "PorusenieZakona": [
+                                      "Zákona SNR č. 372/90 Zb. o priestupkoch v znení neskorších noviel, proti bezpečnosti a plynulosti cestnej premávky, § 22",
+                                    ],
+                                    "Zakon": [
+                                      "",
+                                    ],
+                                  },
+                                ],
+                              },
+                            ],
+                            "Sankcie": [
+                              "",
+                            ],
+                            "Sport": [
+                              {
+                                "SportCharakteristiky": [
+                                  "",
+                                ],
+                                "SportDruh": [
+                                  "",
+                                ],
+                                "SportDruhT": [
+                                  "",
+                                ],
+                                "SportKlub": [
+                                  "0000000000",
+                                ],
+                                "SportKlubT": [
+                                  "",
+                                ],
+                                "SportPopisOsoby": [
+                                  "",
+                                ],
+                              },
+                            ],
+                            "Stav": [
+                              "9PRAV",
+                            ],
+                            "StavT": [
+                              "",
+                            ],
+                            "StrucnyPopis": [
+                              "V13 - Šikmé čiary",
+                            ],
+                            "TypDeliktu": [
+                              "P",
+                            ],
+                            "TypDeliktuT": [
+                              "Priestupok",
+                            ],
+                            "TypEvidencie": [
+                              "",
+                            ],
+                            "TypEvidencieT": [
+                              "",
+                            ],
+                            "TypSluzCinnosti": [
+                              "",
+                            ],
+                            "TypSluzCinnostiT": [
+                              "",
+                            ],
+                            "UdalostOs": [
+                              "AAAAAAAAAAAAAAAAAAAAAA==",
+                            ],
+                            "UdalostOsT": [
+                              "",
+                            ],
+                            "Umiestnenie": [
+                              {
+                                "CisloOrientacne": [
+                                  "",
+                                ],
+                                "CisloPopisne": [
+                                  "",
+                                ],
+                                "KrajKod": [
+                                  "",
+                                ],
+                                "KrajNazov": [
+                                  "",
+                                ],
+                                "MiestoSpachania": [
+                                  "",
+                                ],
+                                "ObecKod": [
+                                  "",
+                                ],
+                                "ObecNazov": [
+                                  "",
+                                ],
+                                "OkresKod": [
+                                  "",
+                                ],
+                                "OkresNazov": [
+                                  "",
+                                ],
+                                "Psc": [
+                                  "",
+                                ],
+                                "TypPopisuMiesta": [
+                                  "",
+                                ],
+                                "Ulica": [
+                                  "",
+                                ],
+                                "VCudzine": [
+                                  "",
+                                ],
+                                "ZemepisnaDlzka": [
+                                  "0.0",
+                                ],
+                                "ZemepisnaSirka": [
+                                  "0.0",
+                                ],
+                              },
+                            ],
+                            "VstupnyKanal": [
+                              "M",
+                            ],
+                            "VstupnyKanalT": [
+                              "Migrácia",
+                            ],
+                            "ZavaznyPriestupok": [
+                              "",
+                            ],
+                            "Zeleznica": [
+                              {
+                                "ZelTypLokality": [
+                                  "",
+                                ],
+                                "ZelTypLokalityT": [
+                                  "",
+                                ],
+                              },
+                            ],
+                          },
+                        ],
+                        "Priestupca": [
+                          {
+                            "Adresa": [
+                              {
+                                "PCisloOrientacne": [
+                                  "3",
+                                ],
+                                "PCisloPopisne": [
+                                  "",
+                                ],
+                                "PObecKod": [
+                                  "",
+                                ],
+                                "PObecNazov": [
+                                  "Malacky",
+                                ],
+                                "PPsc": [
+                                  "90101",
+                                ],
+                                "PStatKod": [
+                                  "SK",
+                                ],
+                                "PStatNazov": [
+                                  "Slovensko",
+                                ],
+                                "PUlica": [
+                                  "Továrenská",
+                                ],
+                              },
+                            ],
+                            "BuPartnerId": [
+                              "",
+                            ],
+                            "Mladistvy": [
+                              "X",
+                            ],
+                            "Nepricetny": [
+                              "",
+                            ],
+                            "SubjektFo": [
+                              {
+                                "Doklad": [
+                                  {
+                                    "PDokladCislo": [
+                                      "SP 010854",
+                                    ],
+                                    "PDokladMeno": [
+                                      "",
+                                    ],
+                                    "PDokladPriezvisko": [
+                                      "",
+                                    ],
+                                    "PDokladTyp": [
+                                      "",
+                                    ],
+                                    "PDokladTypT": [
+                                      "Neuvedené",
+                                    ],
+                                  },
+                                ],
+                                "PDatumNarodenia": [
+                                  "1973-01-31",
+                                ],
+                                "PMeno": [
+                                  "Jana",
+                                ],
+                                "PPriezvisko": [
+                                  "Tkáčiková",
+                                ],
+                                "PRfoId": [
+                                  "42612301",
+                                ],
+                                "PRodneCislo": [
+                                  "7351310000",
+                                ],
+                                "PStatnaPrislusnost": [
+                                  "SK",
+                                ],
+                                "PStatnaPrislusnostT": [
+                                  "Slovensko",
+                                ],
+                                "PTitulPred": [
+                                  "",
+                                ],
+                                "PTitulZa": [
+                                  "",
+                                ],
+                              },
+                            ],
+                            "SubjektPo": [
+                              {
+                                "PoIco": [
+                                  "",
+                                ],
+                                "PoObchodneMeno": [
+                                  "",
+                                ],
+                                "PoPravnaForma": [
+                                  "",
+                                ],
+                                "PoPravnaFormaT": [
+                                  "",
+                                ],
+                                "PoPravnaFormaT2": [
+                                  "",
+                                ],
+                                "PoRpoId": [
+                                  "",
+                                ],
+                                "PoTypPo": [
+                                  "",
+                                ],
+                                "PoTypPoT": [
+                                  "",
+                                ],
+                              },
+                            ],
+                            "TypSubjektu": [
+                              "F",
+                            ],
+                          },
+                        ],
+                        "SpecifickePolia": [
+                          "",
+                        ],
+                      },
+                    ],
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    "env:Header": [
+      "",
+    ],
+  },
+}
+`;
